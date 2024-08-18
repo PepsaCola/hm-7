@@ -1,0 +1,39 @@
+.addreess {
+}
+.footer-container {
+  max-width: 1600px;
+  max-height: 251px;
+  display: flex;
+}
+.footer {
+  background: #2f303a;
+  padding: 60px 0;
+}
+.footer-title {
+  font-style: normal;
+  color: white;
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 0.78px;
+  font-family: "Raleway", sans-serif;
+  padding-bottom: 28px;
+  display: block;
+}
+.address-link {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.42px;
+  font-style: normal;
+}
+.footer-list {
+  margin-bottom: 0;
+  padding: 0;
+  padding-right: 25px;
+}
+.address-link-white {
+  color: white;
+}
+.footer-item:not(:last-child) {
+  padding-bottom: 12px;
+}
